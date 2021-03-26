@@ -1,2 +1,4 @@
 # RiseNGrindKombucha
-Rise and Grind Kombucha site
+
+* Run npm install to install the dependencies
+* This is a react.js website for kombucha
