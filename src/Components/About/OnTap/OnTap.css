@@ -1,0 +1,64 @@
+.tap-banner {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.inner-tap-banner {
+    width: 93%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(230, 254, 255);
+    margin: 30px 20px 10px 20px;
+    object-fit: cover;
+    height: 90px;
+    align-items: center;
+}
+.inner-tap-banner h2 {
+    margin-left: 2.5rem;
+}
+
+.on-tap-menu {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 95%;
+    padding-left: 2rem;
+}
+
+.menu-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    flex-grow: 2;
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+.menu-image-container {
+    width: 100%;
+    height: 35%;
+    background-color: black;
+}
+
+.menu-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-info-container {
+    width: 100%;
+    height: 60%;
+    background-color: rgb(230, 254, 255);
+}
+.menu-info-container h2 {
+    margin-left: 1rem;
+    max-width: 80%;
+    font-size: 2rem;
+}
+.menu-info-container p {
+    margin-left: 1rem;
+    max-width: 80%;
+    font-size: 1.5rem;
+}

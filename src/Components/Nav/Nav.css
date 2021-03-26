@@ -1,0 +1,79 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.button-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.button-container h3 {
+    cursor: pointer;
+    color: white;
+    height: 20px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0);
+}
+.button-container h3:hover {
+    border-bottom: solid 2px white;
+}
+.user-at-top {
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+    transform: translateY(-20px);
+    animation: forwards linear 0.3s fadeIn;
+    position: fixed;
+}
+.nav-title h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 2rem;
+}
+
+.mobile-nav-button {
+    display: none;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+.mobile-nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    animation: fadeIn linear forwards 0.3s;
+}
+
+.mobile-nav-container h3 {
+    padding: 2rem 1rem;
+}
+.close-mobile-menu {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    width: 40px;
+    height: 40px;
+    filter: invert();
+}

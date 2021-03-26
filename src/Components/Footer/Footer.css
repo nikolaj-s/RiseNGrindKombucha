@@ -1,0 +1,14 @@
+footer {
+    margin-top: 50px;
+    display: flex;
+    flex-shrink: 0;
+    height: 400px;
+    background-color: rgb(230, 254, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h3 {
+    margin: 0 1rem;
+}

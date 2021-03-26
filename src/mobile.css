@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1000px) {
+    /* navigation */
+    .nav-title h1 {
+        font-size: 1rem;
+        padding: 0;
+    }
+    .button-container {
+       display: none;
+    }
+    .what-is-container {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    /* landing page*/
+    .text-splash-container h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .text-splash-container h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .text-splash-container h4 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /*what is buch container */
+    .buch-image-container {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .buch-info-container {
+        width: 100%;
+        margin: 10px 0;
+        height: auto;
+    }
+    .focus-image-container-1{
+        display: none;
+    }
+    .focus-container {
+        height: auto;
+        margin: 10px 0;
+        flex-direction: column;
+    }
+    .focus-images-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .inner-tap-banner {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .menu-item-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .inner-online-shop-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .online-shop-banner-container h1 {
+        font-size: 1.4rem;
+    }
+    .on-tap-menu {
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .contact-container {
+        height: auto;
+    }
+    .contact-wrapper {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+    .contact-info-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+    form {
+        width: 100%;
+        
+    }
+    input {
+        margin: 20px 0;
+    }
+    button {
+        margin: 20px 0;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    footer h3 {
+        text-align: center;
+    }
+    
+    .mobile-nav-button {
+        display: block;
+        filter: invert();
+        margin-right: 1.5rem;
+    }
+    .menu-info-container h2 {
+        margin-left: 2.5rem;
+        max-width: 80%;
+        font-size: 2rem;
+    }
+    .menu-info-container p {
+        margin-left: 2.5rem;
+        max-width: 80%;
+        font-size: 1.5rem;
+    }
+}
